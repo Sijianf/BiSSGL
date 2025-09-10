@@ -7,6 +7,7 @@ mysplit <- function(vec) {
   non_zeros_cuts <- as.integer(names(counts[counts > 1]))
   non_zeros_cuts <- non_zeros_cuts[non_zeros_cuts > 0]
   out_list <- c()
+  dfhsakasfhd
 
   c1 <- vec[checking_list >= 1 & checking_list < non_zeros_cuts[1]]
   c1 <- c(c1, vec[checking_list == non_zeros_cuts[1]][1])
