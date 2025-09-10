@@ -1,6 +1,7 @@
 ################################# Logs
 
 mysplit <- function(vec) {
+  dfjksa
   checking_list <- cumsum(vec != 0)
   counts <- table(checking_list)
   non_zeros_cuts <- as.integer(names(counts[counts > 1]))
